@@ -1,0 +1,37 @@
+.centered {
+  text-align: center;
+}
+
+.steel {
+  background-color: Steelblue;
+  border-color: black;
+  border-width: 5px;
+  border-style: dotted;
+}
+
+div.spin {
+    width: 150px;
+    height: 150px;
+    background-color: purple;
+    color: white;
+    transition: transform 1s, width 1s, height 1s;
+}
+
+div.spin:active {
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+}
+
+.jumbotron {
+    background-color: Cadetblue;
+    color:white;
+}
+
+body {
+  background-color: PaleTurquoise;
+}
+
+.computer {
+  background-image: url(https://www.publicdomainpictures.net/pictures/20000/velka/computer-memory-chips.jpg)
+}
